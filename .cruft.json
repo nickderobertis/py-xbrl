@@ -1,0 +1,20 @@
+{
+    "template": "https://github.com/nickderobertis/cookiecutter-pypi-sphinx",
+    "commit": "6f7a45becea44fe323b93e84ed005f77b945fc59",
+    "context": {
+        "cookiecutter": {
+            "package_name": "py-xbrl",
+            "package_directory": "pyxbrl",
+            "full_name": "Python XBRL Parser",
+            "repo_name": "py-xbrl",
+            "repo_username": "nickderobertis",
+            "short_description": "Parse XBRL into models which support serialization to DataFrames",
+            "package_author": "Nick DeRobertis",
+            "author_email": "whoopnip@gmail.com",
+            "google_analytics_id": "G-6HEGXVT9SR",
+            "logo_url": "",
+            "_template": "https://github.com/nickderobertis/cookiecutter-pypi-sphinx"
+        }
+    },
+    "directory": null
+}
