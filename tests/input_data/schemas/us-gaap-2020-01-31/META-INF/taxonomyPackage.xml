@@ -1,0 +1,79 @@
+<tp:taxonomyPackage xml:lang='en-US' xmlns:tp='http://xbrl.org/2016/taxonomy-package'>
+<tp:identifier>http://xbrl.fasb.org/us-gaap/2020-01-31</tp:identifier>
+<tp:name>The annual US-GAAP Taxonomy</tp:name>
+<tp:description xml:lang='en-US'>The 2020 U.S. Financial Reporting Taxonomy (Taxonomy) contains updates for accounting standards and other improvements since the 2018 Taxonomy as used by issuers filing with the U.S. Securities and Exchange Commission (SEC).</tp:description>
+<tp:version>2020-01-31</tp:version>
+<tp:license href='http://xbrl.fasb.org/terms/TaxonomiesTermsConditions.html' name='Taxonomies Terms and Conditions' />
+<tp:publisher>Financial Accounting Standard Board</tp:publisher>
+<tp:publisherURL>http://www.fasb.org/</tp:publisherURL>
+<tp:publisherCountry>US</tp:publisherCountry>
+<tp:publicationDate>2020-01-31</tp:publicationDate>
+<tp:entryPoints>
+<tp:entryPoint>
+<tp:name>All components including Taxonomy Disclosure Templates and five related SEC Taxonomies - DEI, COUNTRY, STPR, CURRENCY, EXCH</tp:name>
+<tp:description>This entry point includes ALL components for the US GAAP Financial Reporting Taxonomy plus Taxonomy Disclosure Templates. Five related SEC Taxonomies are also imported - DEI, COUNTRY, CURRENCY, and EXCH.</tp:description>
+<tp:version>2020-01-31</tp:version>
+<tp:entryPointDocument href='http://xbrl.fasb.org/us-gaap/2020/entire/us-gaap-entryPoint-all-2020-01-31.xsd' />
+</tp:entryPoint>
+<tp:entryPoint>
+<tp:name>All components including Taxonomy Disclosure Templates except for  doc, -chg-, and  ref  linkbases. Includes three related SEC Taxonomies - DEI, COUNTRY, CURRENCY.</tp:name>
+<tp:description>This entry point includes all components for the US GAAP Financial Reporting Taxonomy plus Taxonomy Disclosure Templates except for document, change, and reference linkbases. Four related SEC Taxonomies are also imported - DEI, COUNTRY, and CURRENCY.</tp:description>
+<tp:version>2020-01-31</tp:version>
+<tp:entryPointDocument href='http://xbrl.fasb.org/us-gaap/2020/entire/us-gaap-entryPoint-std-2020-01-31.xsd' />
+</tp:entryPoint>
+<tp:entryPoint>
+<tp:name>All components except for Taxonomy Disclosure Templates. Includes five related SEC Taxonomies - DEI, COUNTRY, STPR, CURRENCY, EXCH.</tp:name>
+<tp:description>This entry point includes ALL components for the US GAAP Financial Reporting Taxonomy except Taxonomy Disclosure Templates. Six related SEC Taxonomies are also imported - DEI, COUNTRY, STPR, CURRENCY, and EXCH.</tp:description>
+<tp:version>2020-01-31</tp:version>
+<tp:entryPointDocument href='http://xbrl.fasb.org/us-gaap/2020/entire/us-gaap-entryPoint-all-wotmp-2020-01-31.xsd' />
+</tp:entryPoint>
+<tp:entryPoint>
+<tp:name>All Taxonomy Disclosure Templates and related components including two related SEC Taxonomies - DEI and COUNTRY.</tp:name>
+<tp:description>This entry point includes Taxonomy Disclosure Templates and related components for the US GAAP Financial Reporting Taxonomy. Two related SEC Taxonomies are also imported - DEI and COUNTRY.</tp:description>
+<tp:version>2020-01-31</tp:version>
+<tp:entryPointDocument href='http://xbrl.fasb.org/us-gaap/2020/entire/us-gaap-entryPoint-tmp-2020-01-31.xsd' />
+</tp:entryPoint>
+<tp:entryPoint>
+<tp:name>Elements, Labels, Documentation, References, Deprecated presentations, Deprecated mapping, Change notes, Implementation notes, Implementation note relatioships)</tp:name>
+<tp:description>This entry point includes the elements for the US GAAP Financial Reporting Taxonomy with their standard, period start, period end, total, axis default, and documentation labels. It also include references. It does not include presentation, calculation, or definition linkbases. Four related SEC Taxonomies are imported - DEI, COUNTRY, CURRENCY, and EXCH. This entry point also includes the following non industry/statement and non disclosure presentation and definition linkbases: 999000 - Deprecated - Deprecated Concepts  (presentation) 999000 - Deprecated - Deprecated Concepts  (definition).  This entry pint also includes Change notes, Implementation notes, and Implementation note relationships</tp:description>
+<tp:version>2020-01-31</tp:version>
+<tp:entryPointDocument href='http://xbrl.fasb.org/us-gaap/2020/elts/us-gaap-ent-all-chg-2020-01-31.xsd' />
+</tp:entryPoint>
+<tp:entryPoint>
+<tp:name>Elements, Labels, Documentation, References, Deprecated presentations, Deprecated mapping, SEC DEI, COUNTRY, CURRENCY, EXCH Imports</tp:name>
+<tp:description>This entry point includes the elements for the US GAAP Financial Reporting Taxonomy with their standard, period start, period end, total, axis default, and documentation labels. It also include references. It does not include presentation, calculation, or definition linkbases. Four related SEC Taxonomies are imported - DEI, COUNTRY, CURRENCY, and EXCH. This entry point also includes the following non industry/statement and non disclosure presentation and definition linkbases: 999000 - Deprecated - Deprecated Concepts  (presentation) 999000 - Deprecated - Deprecated Concepts  (definition)</tp:description>
+<tp:version>2020-01-31</tp:version>
+<tp:entryPointDocument href='http://xbrl.fasb.org/us-gaap/2020/elts/us-gaap-ent-all-2020-01-31.xsd' />
+</tp:entryPoint>
+<tp:entryPoint>
+<tp:name>Elements, Labels, Documentation, References, SEC DEI, COUNTRY, CURRENCY, EXCH Imports</tp:name>
+<tp:description>This entry point includes the elements for the US GAAP Financial Reporting Taxonomy with their standard, period start, period end, total, axis default, and documentation labels. It also include references. It does not include presentation, calculation, or definition linkbases. Four related SEC Taxonomies are imported - DEI, COUNTRY, CURRENCY, and EXCH.</tp:description>
+<tp:version>2020-01-31</tp:version>
+<tp:entryPointDocument href='http://xbrl.fasb.org/us-gaap/2020/elts/us-gaap-all-2020-01-31.xsd' />
+</tp:entryPoint>
+<tp:entryPoint>
+<tp:name>Elements, Labels, Deprecated presentations, Deprecated mapping, SEC DEI Import</tp:name>
+<tp:description>This entry point includes the elements for the US GAAP Financial Reporting Taxonomy with their standard, period start, period end, total and axis default labels. It does not include presentation, calculation, definition, or reference linkbases. A related SEC Taxonomy is imported - DEI. This entry point also includes the following non industry/statement and non disclosure presentation and definition linkbases: 999000 - Deprecated - Deprecated Concepts  (presentation) 999000 - Deprecated - Deprecated Concepts  (definition)</tp:description>
+<tp:version>2020-01-31</tp:version>
+<tp:entryPointDocument href='http://xbrl.fasb.org/us-gaap/2020/elts/us-gaap-ent-std-2020-01-31.xsd' />
+</tp:entryPoint>
+<tp:entryPoint>
+<tp:name>Elements, Labels, SEC DEI Import</tp:name>
+<tp:description>This entry point includes the elements for the US GAAP Financial Reporting Taxonomy with their standard, period start, period end, total and axis default labels. It does not include presentation, calculation, definition, or reference linkbases. A related SEC Taxonomy is imported - DEI.</tp:description>
+<tp:version>2020-01-31</tp:version>
+<tp:entryPointDocument href='http://xbrl.fasb.org/us-gaap/2020/elts/us-gaap-std-2020-01-31.xsd' />
+</tp:entryPoint>
+<tp:entryPoint>
+<tp:name>Elements only</tp:name>
+<tp:description>This is the schema file (elements) for the US GAAP Financial Reporting Taxonomy.  This entry point contains only elements and does not contain any linkbases.</tp:description>
+<tp:version>2020-01-31</tp:version>
+<tp:entryPointDocument href='http://xbrl.fasb.org/us-gaap/2020/elts/us-gaap-2020-01-31.xsd' />
+</tp:entryPoint>
+<tp:entryPoint>
+<tp:name>XBRL US DQC Rules Taxonomy</tp:name>
+<tp:description>This entry point includes the XBRL US DQC Rules Taxonomy as published by the FASB.</tp:description>
+<tp:version>2020-01-31</tp:version>
+<tp:entryPointDocument href='http://xbrl.fasb.org/us-gaap/2020/dqcrules/dqcrules-2020-01-31.xsd' />
+</tp:entryPoint>
+</tp:entryPoints>
+</tp:taxonomyPackage>
